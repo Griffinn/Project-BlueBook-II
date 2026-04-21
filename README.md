@@ -6,7 +6,7 @@ Project BlueBook II is a full-stack Node.js application designed to collect, sto
 
 ---
 
-## 🚀 Features
+## ⚙️ Features
 
 ### Sightings System
 - Submit paranormal/UFO sightings through a structured form
@@ -33,7 +33,7 @@ Project BlueBook II is a full-stack Node.js application designed to collect, sto
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Backend:** Node.js (Vanilla)
 - **Frontend:** HTML, CSS, JavaScript
@@ -88,7 +88,7 @@ Frontend listens using:
 ```js
 const eventSource = new EventSource("/api/news")
 ```
-## Installation and Setup:
+## 📦 Installation and Setup:
 
 ### 1. Clone the repository
 ```bash
@@ -124,4 +124,7 @@ http://localhost:3000
 * Filtering and search for sightings
 * Pagination and performance optimization
 * WebSocket-based real-time expansion
+
+## Final Note
+This project reflects a deep focus on fundamentals — building systems from the ground up, understanding how things work under the hood, and designing with clarity and intent.
 
