@@ -4,7 +4,6 @@
 
 Project BlueBook II is a full-stack Node.js application designed to collect, store, and stream paranormal and UFO sightings in real time. Built from scratch without frameworks, it demonstrates core backend engineering principles, event-driven architecture, and live data streaming using Server-Sent Events (SSE).
 
----
 
 ## ⚙️ Features
 
