@@ -133,6 +133,26 @@ http://localhost:3000
 * WebSocket-based real-time expansion
 
 ## Screenshots/Demo
+![Homepage Overview](assets/localhost_8000_ (2).png)
+*Homepage*
+
+![Sightings Overview](assets/localhost_3000_sightings.html.png)
+*Sightings Page*
+
+![Upload Sightings Page Overview](assets/localhost_3000_upload-sighting.html.png)
+*Upload Sightings Page*
+
+![Uplaod Sightings Overview](assets/localhost_8000_upload-sighting.html.png)
+*Light Theme Form for Upload Sightings Page (beause I can't decide what to pick aaaaa)*
+
+![News Page Overview](assets/news.html (1).png)
+*Live News Page Preview 1*
+
+![News Page Overview](assets/news.html (2).png)
+*Live News Page Preview 2*
+
+![News Page Overview](assets/news.html (3).png)
+*Live News Page Preview 3*
 
 
 ## Final Note
