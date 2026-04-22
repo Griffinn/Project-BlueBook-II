@@ -143,7 +143,7 @@ http://localhost:3000
 *Upload Sightings Page*
 
 ![Uplaod Sightings Overview](assets/localhost_8000_upload-sighting.html.png)
-*Light Theme Form for Upload Sightings Page (beause I can't decide what to pick aaaaa)*
+*Upload Sightings Page with a Light Theme Form*
 
 ![News Page Overview](assets/news.html(1).png)
 *Live News Page Preview 1*
