@@ -1,6 +1,6 @@
 # Project BlueBook II
 
-### **Declassified. Documented. Discovered.**
+### **Declassified. Documented. Discovered. 🛸**
 
 Project BlueBook II is a full-stack Node.js application designed to collect, store, and stream UFO sightings in real time. Built from scratch without frameworks, it demonstrates core backend engineering principles, event-driven architecture, and live data streaming using Server-Sent Events (SSE).
 
@@ -12,6 +12,27 @@ Project BlueBook II is a full-stack Node.js application designed to collect, sto
 ![No Framework](https://img.shields.io/badge/Backend-No%20Framework-red?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-black?style=for-the-badge)
 
+## Preview
+![Homepage Overview](assets/localhost_8000_(2).png)
+*Home Page – Landing interface with navigation and theme styling*
+
+![Sightings Overview](assets/localhost_3000_sightings.html.png)
+*Sightings Page – Displays all recorded paranormal reports in card format*
+
+![Upload Sighting Page](assets/localhost_3000_upload-sighting.html.png)
+*Upload Page – Form for submitting new sightings*
+
+![Upload Light Theme](assets/localhost_8000_upload-sighting.html.png)
+*Upload Page (Light Theme) – Alternate form styling*
+
+![Live News Feed 1](assets/news.html(1).png)
+*Live News Feed – Real-time updates via Server-Sent Events*
+
+![Live News Feed 2](assets/news.html(2).png)
+*Live News Feed – Dynamic story rotation*
+
+![Live News Feed 3](assets/news.html(3).png)
+*Live News Feed – Continuous streaming preview*
 
 ## ⚙️ Features
 
@@ -38,7 +59,6 @@ Project BlueBook II is a full-stack Node.js application designed to collect, sto
 - No frameworks like Express used
 - Manual routing and static file serving
 
-<br>
 
 ## 🛠️ Tech Stack
 
@@ -49,7 +69,6 @@ Project BlueBook II is a full-stack Node.js application designed to collect, sto
 - **Security:** sanitize-html
 - **Storage:** File-based JSON
 
-<br>
 
 ## Project Structure
 ```text
@@ -67,8 +86,6 @@ project-bluebook-II/
 └── README.md
 ```
 
-
-<br>
 
 ## How It Works
 
@@ -91,7 +108,7 @@ project-bluebook-II/
   "text": "Somewhere over the Atlantic..."
 }
 ```
-<br>
+---
 
 ### 🔹 Real-Time Streaming (SSE)
 
@@ -120,6 +137,8 @@ This project was built to explore:
 
 Instead of relying on abstractions, I focused on building everything from scratch to strengthen my backend fundamentals.
 
+---
+
 ## Architecture Overview
 
 - Custom Node.js HTTP server
@@ -128,6 +147,8 @@ Instead of relying on abstractions, I focused on building everything from scratc
 - File-based JSON storage
 - EventEmitter for internal events
 - Server-Sent Events (SSE) for real-time updates
+
+---
 
 ## Data Flow
 
@@ -175,29 +196,6 @@ http://localhost:3000
 * Filtering and search for sightings
 * Pagination and performance optimization
 * WebSocket-based real-time expansion
-
-## Screenshots/Demo
-![Homepage Overview](assets/localhost_8000_(2).png)
-*Homepage*
-
-![Sightings Overview](assets/localhost_3000_sightings.html.png)
-*Sightings Page*
-
-![Upload Sightings Page Overview](assets/localhost_3000_upload-sighting.html.png)
-*Upload Sightings Page*
-
-![Uplaod Sightings Overview](assets/localhost_8000_upload-sighting.html.png)
-*Upload Sightings Page with a Light Theme Form*
-
-![News Page Overview](assets/news.html(1).png)
-*Live News Page Preview 1*
-
-![News Page Overview](assets/news.html(2).png)
-*Live News Page Preview 2*
-
-![News Page Overview](assets/news.html(3).png)
-*Live News Page Preview 3*
-
 
 ## Final Note
 This project reflects a deep focus on fundamentals — building systems from the ground up, understanding how things work under the hood, and designing with clarity and intent.
