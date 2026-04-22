@@ -38,7 +38,7 @@ Project BlueBook II is a full-stack Node.js application designed to collect, sto
 - No frameworks like Express used
 - Manual routing and static file serving
 
----
+<br>
 
 ## 🛠️ Tech Stack
 
@@ -49,7 +49,7 @@ Project BlueBook II is a full-stack Node.js application designed to collect, sto
 - **Security:** sanitize-html
 - **Storage:** File-based JSON
 
----
+<br>
 
 ## Project Structure
 ```text
@@ -68,7 +68,7 @@ project-bluebook-II/
 ```
 
 
----
+<br>
 
 ## How It Works
 
@@ -91,7 +91,7 @@ project-bluebook-II/
   "text": "Somewhere over the Atlantic..."
 }
 ```
----
+<br>
 
 ### 🔹 Real-Time Streaming (SSE)
 
@@ -106,6 +106,8 @@ Frontend listens using:
 ```js
 const eventSource = new EventSource("/api/news")
 ```
+
+<br>
 
 ## Why This Project
 I wanted to go beyond using frameworks and understand how things work at a fundamental level.
