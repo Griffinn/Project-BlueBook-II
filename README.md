@@ -80,6 +80,17 @@ project-bluebook-II/
 | POST   | `/api`        | Add a new sighting             |
 | GET    | `/api/news`   | Live news stream (SSE)         |
 
+
+#### Example Response
+
+```json
+{
+  "location": "London, UK",
+  "timeStamp": "7 May 2025 at 09:26",
+  "title": "The Red Eye Flight",
+  "text": "Somewhere over the Atlantic..."
+}
+```
 ---
 
 ### 🔹 Real-Time Streaming (SSE)
@@ -95,6 +106,37 @@ Frontend listens using:
 ```js
 const eventSource = new EventSource("/api/news")
 ```
+
+## Why This Project
+I wanted to go beyond using frameworks and understand how things work at a fundamental level.
+
+This project was built to explore:
+- How HTTP servers function internally
+- Real-time communication without WebSockets
+- Event-driven architecture in practice
+- Secure handling of user-generated content
+
+Instead of relying on abstractions, I focused on building everything from scratch to strengthen my backend fundamentals.
+
+## Architecture Overview
+
+- Custom Node.js HTTP server
+- Manual routing layer
+- Static file serving system
+- File-based JSON storage
+- EventEmitter for internal events
+- Server-Sent Events (SSE) for real-time updates
+
+## Data Flow
+
+1. User submits a sighting via form  
+2. Data is sanitized and validated  
+3. Stored in `data.json`  
+4. EventEmitter triggers internal alert  
+5. Sighting becomes available via `/api`  
+6. Frontend fetches and renders dynamically  
+
+
 ## 📦 Installation and Setup:
 
 ### 1. Clone the repository
